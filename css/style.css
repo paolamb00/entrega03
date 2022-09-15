@@ -1,3 +1,19 @@
 main {
-    min-height: calc(100vh - 160px);
-  }
+    min-height: calc(100vh - 160px); 
+}
+
+  
+img{
+  height:150px;
+  width:100%;
+}
+
+.card{
+  max-height: fit-content;
+  max-width: 400px;
+}
+
+.card-text{
+overflow-y: scroll;
+max-height: 300px;
+}
